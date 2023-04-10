@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+body{
+  width: 1600px;
+  height: 200px;
+}
+.parent{
+margin: 0;
+background-color: rgb(212, 31, 31);
+height: 200px;
+width: 100%;
+
+}
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+.na-child1{
+  width: 100%;
+  height: 42px;
+  display: flex;
+
+}
+
+/* .na-child1> div:first-child
+
+.na-child1> div:last-child */
+
+
+.na-chain2{
+  width: 100%;
+  height: 94px;
+  display:flex;
+  justify-content: space-around;
+
+}
+
+.na-chain2>img{
+  height: 35px;
+width: 239px;
+
+}
+
+.search {
+  border-radius: 32px;
+  width: 496px;
+  height: 56px;
+}
+
+.search-box {
+  width: 303px;
+  height: 22px;
+  color: #888b97; 
+ 
+}
+
+.na-chain2>.search>i {
+  border-radius: 32px;
+  /* width: 109px;
+  height: 48px; */
+  background: #10b981;
+}
+.na-child3{
+  width: 100%;
+  height: 69px;
+  
+  
+}
+ul {
+  width: 788px;
+  margin-left: 150px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+
+
+}
+
+
+
+
+
+
